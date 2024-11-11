@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BIODATA SAYA</title>
+    <style>
+      /* CSS Styling */
+      body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f2f2f2;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+      }
+
+      .kotak {
+        border: 2px solid #333;
+        border-radius: 10px;
+        width: 60%;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .judul {
+        text-align: center;
+        background-color: #ffeb3b;
+        padding: 15px;
+        border-radius: 8px 8px 0 0;
+        margin-bottom: 20px;
+      }
+
+      .judul h1 {
+        margin: 0;
+        font-size: 24px;
+        color: #333;
+      }
+
+      .blok {
+        overflow: hidden;
+        margin-bottom: 20px;
+      }
+
+      .kiri {
+        width: 30%;
+        float: left;
+        text-align: center;
+      }
+
+      .kiri img {
+        width: 100%;
+        max-width: 150px;
+        border-radius: 10%;
+        margin-bottom: 10px;
+      }
+
+      .kanan {
+        width: 65%;
+        float: left;
+        padding-left: 20px;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        padding: 8px;
+        text-align: left;
+      }
+
+      th {
+        color: #555;
+        width: 30%;
+      }
+
+      td {
+        color: #222;
+      }
+
+      ul {
+        list-style-type: disc;
+        padding-left: 20px;
+      }
+
+      ul li {
+        margin-bottom: 8px;
+      }
+
+      .blok h2 {
+        color: #4caf50;
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .kotak {
+          width: 90%;
+        }
+
+        .kiri,
+        .kanan {
+          width: 100%;
+          float: none;
+          padding: 0;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kotak">
+      <div class="judul">
+        <h1>BIODATA DIRI</h1>
+      </div>
+      <div class="blok">
+        <h2>Informasi</h2>
+        <div class="kiri">
+          <img src="nu_aku.jpg" alt="Foto Diri" />
+        </div>
+        <div class="kanan">
+          <table>
+            <tr>
+              <th>Nama</th>
+              <td>Rafa Muhamad Akbar</td>
+            </tr>
+            <tr>
+              <th>Tempat</th>
+              <td>Kuningan</td>
+            </tr>
+            <tr>
+              <th>Tgl. Lahir</th>
+              <td>18 Agustus 2005</td>
+            </tr>
+            <tr>
+              <th>Agama</th>
+              <td>Islam</td>
+            </tr>
+            <tr>
+              <th>Alamat</th>
+              <td>Desa Kalapagunung, Rt.09, RW.02</td>
+            </tr>
+            <tr>
+              <th>Email</th>
+              <td>20230910057@uniku.ac.id</td>
+            </tr>
+            <tr>
+              <th>No. Hp</th>
+              <td>+6289664322783</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="blok">
+        <h2>Pendidikan</h2>
+        <ul>
+          <li><b>2011-2017</b> SD Negeri 1 Kalapagunung</li>
+          <li><b>2017-2020</b> SMP Negeri 1 Kramatmulya</li>
+          <li><b>2020-2023</b> SMK Karya Nasional Kuningan</li>
+          <li><b>2023-sekarang</b> Universitas Kuningan</li>
+        </ul>
+      </div>
+      <div class="blok">
+        <h2>Hobi</h2>
+        <ul>
+          <li>Basket</li>
+          <li>Badminton</li>
+          <li>Futsal</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
