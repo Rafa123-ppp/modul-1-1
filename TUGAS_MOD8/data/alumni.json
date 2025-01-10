@@ -1,0 +1,38 @@
+[
+    {
+        "nim": "20230910057",
+        "name": "Rafa",
+        "major": "sistem informasi",
+        "year": "2023"
+    },
+    {
+        "nim": "20240910902",
+        "name": "Rengga",
+        "major": "Kehutanan",
+        "year": "2024"
+    },
+    {
+        "nim": "20220910066",
+        "name": "Samsul",
+        "major": "dkv",
+        "year": "2022"
+    },
+    {
+        "nim": "20230910044",
+        "name": "Jumirah",
+        "major": "Management",
+        "year": "2023"
+    },
+    {
+        "nim": "20200910102",
+        "name": "Robby",
+        "major": "Akuntansi",
+        "year": "2020"
+    },
+    {
+        "nim": "20230910567",
+        "name": "Rizik",
+        "major": "Teknik Informatika",
+        "year": "2023"
+    }
+]
